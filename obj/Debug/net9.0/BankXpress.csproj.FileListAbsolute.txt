@@ -1,0 +1,14 @@
+C:\Users\AhnafHasanShifat\Documents\BankXpress\BankXpress\bin\Debug\net9.0\BankXpress.exe
+C:\Users\AhnafHasanShifat\Documents\BankXpress\BankXpress\bin\Debug\net9.0\BankXpress.deps.json
+C:\Users\AhnafHasanShifat\Documents\BankXpress\BankXpress\bin\Debug\net9.0\BankXpress.runtimeconfig.json
+C:\Users\AhnafHasanShifat\Documents\BankXpress\BankXpress\bin\Debug\net9.0\BankXpress.dll
+C:\Users\AhnafHasanShifat\Documents\BankXpress\BankXpress\bin\Debug\net9.0\BankXpress.pdb
+C:\Users\AhnafHasanShifat\Documents\BankXpress\BankXpress\obj\Debug\net9.0\BankXpress.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AhnafHasanShifat\Documents\BankXpress\BankXpress\obj\Debug\net9.0\BankXpress.AssemblyInfoInputs.cache
+C:\Users\AhnafHasanShifat\Documents\BankXpress\BankXpress\obj\Debug\net9.0\BankXpress.AssemblyInfo.cs
+C:\Users\AhnafHasanShifat\Documents\BankXpress\BankXpress\obj\Debug\net9.0\BankXpress.csproj.CoreCompileInputs.cache
+C:\Users\AhnafHasanShifat\Documents\BankXpress\BankXpress\obj\Debug\net9.0\BankXpress.dll
+C:\Users\AhnafHasanShifat\Documents\BankXpress\BankXpress\obj\Debug\net9.0\refint\BankXpress.dll
+C:\Users\AhnafHasanShifat\Documents\BankXpress\BankXpress\obj\Debug\net9.0\BankXpress.pdb
+C:\Users\AhnafHasanShifat\Documents\BankXpress\BankXpress\obj\Debug\net9.0\BankXpress.genruntimeconfig.cache
+C:\Users\AhnafHasanShifat\Documents\BankXpress\BankXpress\obj\Debug\net9.0\ref\BankXpress.dll
