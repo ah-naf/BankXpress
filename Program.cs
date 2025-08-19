@@ -49,9 +49,55 @@ class Program
         }
     }
 
+    static bool ExistUser(string username)
+    {
+        foreach (User user in users) {
+            if (user.username == username)
+            {
+                return true;
+            }
+        }
+        return false;
+
+    }
+
     static void RegisterUser()
     {
         // TODO: Implement registration logic
+        Console.Write("Enter an username: ");
+        string u_name = Console.ReadLine();
+
+        if(ExistUser(u_name))
+        {
+            Console.WriteLine("Opps! The user have already registered.");
+
+            // Extend: logic for navigating to dashboard
+            return;
+        }
+        else
+        {
+            Console.Write("Enter a password ");
+            string pass = Console.ReadLine();
+
+            // Extend: implement logic for password validation
+                // password length should be greater than or equal 6
+                // combination of letter and number (optional)
+
+
+            Console.Write("Provide initial deposite: ");
+            double bal = Convert.ToDouble(Console.ReadLine());
+            
+            // Extend: validate the amount (check whether it is greater than 0
+            User user = new User(u_name, pass, bal);
+            users.Add(user);
+            Console.Write("User Registration COmpleted Successfully.");
+
+        }
+
+
+
+
+
     }
 
     static void LoginUser()
