@@ -36,7 +36,11 @@ class Program
             }
             else if (option == "2")
             {
-                LoginUser();
+                if(!LoginUser())
+                {
+                    continue;
+                }
+                HandleUserOperations();
             }
             else if (option == "3")
             {
@@ -54,8 +58,43 @@ class Program
         // TODO: Implement registration logic
     }
 
-    static void LoginUser()
+    static void HandleUserOperations()
     {
-        // TODO: Implement login logic
+        // TODO: Implemet User operations
+    }
+
+    static bool LoginUser()
+    {
+        Console.Write("Enter Username: ");
+        string username = Console.ReadLine();
+
+        User loggedInUser = null;
+        foreach (User user in users)
+        {
+            if (user.username == username)
+            {
+                loggedInUser = user;
+                break;
+            }
+        }
+
+        if(loggedInUser == null)
+        {
+            Console.WriteLine("Username not found.");
+            return false;
+        }
+
+        Console.Write("Enter password: ");
+        string password = Console.ReadLine();
+
+        if (loggedInUser.password == password)
+        {
+            Console.WriteLine($"Login successful! Welcome, {username}.\n");
+            return true;
+        } else
+        {
+            Console.WriteLine("Incorrect Password");
+            return false;
+        }
     }
 }
