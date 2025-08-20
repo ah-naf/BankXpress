@@ -12,6 +12,7 @@ class User
         username = u;
         password = p;
         balance = b;
+        // This is a comment
     }
 }
 
