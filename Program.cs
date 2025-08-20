@@ -60,6 +60,11 @@ class Program
         return false;
 
     }
+    static bool validPassword(string password)
+    {
+        int len = password.Length;
+        return len >= 6;
+    }
 
     static void RegisterUser()
     {
@@ -80,8 +85,13 @@ class Program
             string pass = Console.ReadLine();
 
             // Extend: implement logic for password validation
-                // password length should be greater than or equal 6
+                // password length should be greater than or equal 6 (done)
                 // combination of letter and number (optional)
+            if(!validPassword(pass))
+            {
+                Console.WriteLine("Please enter a valid password! Password length should be greater or equal to 6");
+                return;
+            }
 
 
             Console.Write("Provide initial deposite: ");
